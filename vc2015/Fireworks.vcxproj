@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -190,10 +191,20 @@
   <ItemGroup />
   <ItemGroup />
   <ItemGroup>
+    <ClCompile Include="..\src\Blast.cpp" />
+    <ClCompile Include="..\src\Entity.cpp" />
+    <ClCompile Include="..\src\Firework.cpp" />
+    <ClCompile Include="..\src\Fireworks.cpp" />
     <ClCompile Include="..\src\FireworksApp.cpp" />
+    <ClCompile Include="..\src\Trail.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\include\Blast.h" />
+    <ClInclude Include="..\include\Entity.h" />
+    <ClInclude Include="..\include\Firework.h" />
+    <ClInclude Include="..\include\Fireworks.h" />
     <ClInclude Include="..\include\Resources.h" />
+    <ClInclude Include="..\include\Trail.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />
